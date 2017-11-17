@@ -47,7 +47,7 @@ import com.android.settings.security.SecurityAdvancedSettings;
 import com.android.settings.security.SecuritySettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
-
+import org.pixelextended.pextension.Pextension;
 import java.util.Map;
 
 /**
@@ -125,6 +125,9 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_BATTERY_SAVER_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(SmartBatterySettings.class.getName(),
                 CategoryKey.CATEGORY_SMART_BATTERY_SETTINGS);
+
+        PARENT_TO_CATEGORY_KEY_MAP.put(Pextension.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

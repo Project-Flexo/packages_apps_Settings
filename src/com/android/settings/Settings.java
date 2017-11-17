@@ -442,4 +442,6 @@ public class Settings extends SettingsActivity {
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 
+    // Wings Additions.
+    public static class PextensionSettingsActivity extends SettingsActivity {}
 }
