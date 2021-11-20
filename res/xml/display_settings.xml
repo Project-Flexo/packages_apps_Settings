@@ -70,6 +70,13 @@
             android:title="@string/screen_zoom_title"
             settings:keywords="@string/keywords_display_size" />
 
+        <!-- Monet -->
+        <Preference
+            android:key="monet_settings"
+            android:title="@string/monet_engine_settings_title"
+            android:summary="@string/monet_engine_settings_summary"
+            android:fragment="com.android.settings.altho.fragments.MonetSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
