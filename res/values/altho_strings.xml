@@ -24,10 +24,6 @@
    <!-- Altho Maintainer -->
    <string name="Altho_maintainer">Device Maintainer</string>
 
-   <!--Garage-->
-   <string name="garage_title">Garage Settings</string>
-   <string name="garage_summary">WIP</string>
-
    <!-- Show About device instead of Android Version -->
     <string name="Altho_about_device">About Device</string>
 
