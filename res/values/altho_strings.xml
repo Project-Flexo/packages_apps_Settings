@@ -59,4 +59,12 @@
     <string name="linear_lightness_title">Use a custom lightness scale</string>
     <string name="white_luminance_title">Brightness</string>
 
+    <!-- Homepage -->
+    <string name="altho_homepage_connectivity">Connectivity</string>
+    <string name="altho_homepage_device">Device</string>
+    <string name="altho_homepage_security">Security</string>
+    <string name="altho_homepage_customization">Customizations</string>
+    <string name="altho_homepage_system">System</string>
+    <string name="altho_security">Android Security Update</string>
+
 </resources>

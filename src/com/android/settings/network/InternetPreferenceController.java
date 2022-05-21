@@ -39,9 +39,9 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.widget.SummaryUpdater;
 import com.android.settings.wifi.WifiSummaryUpdater;
-import com.android.settingslib.Utils;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.utils.ThreadUtils;
 
@@ -68,7 +68,7 @@ public class InternetPreferenceController extends AbstractPreferenceController i
         sIconMap.put(INTERNET_OFF, R.drawable.ic_no_internet_unavailable);
         sIconMap.put(INTERNET_NETWORKS_AVAILABLE, R.drawable.ic_no_internet_available);
         sIconMap.put(INTERNET_WIFI, R.drawable.ic_wifi_signal_4);
-        sIconMap.put(INTERNET_CELLULAR, R.drawable.ic_network_cell);
+        sIconMap.put(INTERNET_CELLULAR, R.drawable.altho_ic_wifi);
         sIconMap.put(INTERNET_ETHERNET, R.drawable.ic_settings_ethernet);
     }
 
@@ -105,11 +105,11 @@ public class InternetPreferenceController extends AbstractPreferenceController i
         }
 
         final @IdRes int icon = sIconMap.get(mInternetType);
+        final int tintColor = Utils.getHomepageIconColor(mContext);
         if (icon != 0) {
             final Drawable drawable = mContext.getDrawable(icon);
             if (drawable != null) {
-                drawable.setTintList(
-                        Utils.getColorAttr(mContext, android.R.attr.colorControlNormal));
+                drawable.setTint(tintColor);
                 mPreference.setIcon(drawable);
             }
         }
