@@ -44,9 +44,12 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "Altruist/src/**/*.java",
+    ]
     resource_dirs: [
         "res",
+        "Altruist/res",
         "res-pixel",
         "TouchGestures/res"
     ],

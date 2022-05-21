@@ -24,6 +24,10 @@
    <!-- Altho Maintainer -->
    <string name="Altho_maintainer">Device Maintainer</string>
 
+   <!--Altruist-->
+   <string name="altruist_title">Altruist</string>
+   <string name="altruist_summary">WIP</string>
+
    <!-- Show About device instead of Android Version -->
     <string name="Altho_about_device">About Device</string>
 
