@@ -36,4 +36,15 @@ public class TopLevelNetworkEntryPreferenceController extends BasePreferenceCont
     public int getAvailabilityStatus() {
         return Utils.isDemoUser(mContext) ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
     }
+
+    @Override
+    public CharSequence getSummary() {
+        if (mMobileNetworkPreferenceController.isAvailable()) {
+            return BidiFormatter.getInstance()
+                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_mobile));
+        } else {
+            return BidiFormatter.getInstance()
+                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_no_mobile));
+        }
+    }
 }
