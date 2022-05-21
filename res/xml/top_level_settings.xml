@@ -88,15 +88,6 @@
         settings:layout="@layout/altho_card_accent_middle"/>
 
     <Preference
-        android:key="top_level_garage"
-        android:title="@string/altruist_title"
-        android:summary="@string/altruist_summary"
-        android:icon="@drawable/ic_garage"
-        android:order="-125"
-        android:fragment="com.altho.settings.altho"
-        settings:layout="@layout/altho_card_accent_middle"/>
-
-    <Preference
         android:fragment="com.android.settings.location.LocationSettings"
         android:icon="@drawable/altho_ic_location"
         android:key="top_level_location"
