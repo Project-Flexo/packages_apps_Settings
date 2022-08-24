@@ -21,10 +21,10 @@
     android:title="@string/Altho_about_device"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Altho logo -->
-    <PreferenceScreen
-        android:key="altho_lottie_animation"
-        android:layout="@layout/altho_lottie_animation"
+    <!-- Flexo logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="flexo_logo"
+        android:layout="@layout/altho_logo"
         android:selectable="false"/>
         
 
