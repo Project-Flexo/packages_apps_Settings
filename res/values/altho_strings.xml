@@ -25,8 +25,9 @@
    <!-- Flexo Version Preference -->
    <string name="Flexo_version">"Flexo version"</string>
 
-   <!-- Altho Maintainer -->
-   <string name="Altho_maintainer">Device Maintainer</string>
+   <!-- Flexo Maintainer -->
+   <string name="Flexo_maintainer">Device Maintainer</string>
+   <string name="device_maintainer_summary" translatable="false">Zabuka_ZuZu</string>
 
    <!-- Show About device instead of Android Version -->
     <string name="Altho_about_device">About Device</string>

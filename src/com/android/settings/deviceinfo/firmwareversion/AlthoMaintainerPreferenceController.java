@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 Project Altho
+ * Copyright (C) 2021 Project Flexo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,12 +25,12 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class AlthoMaintainerPreferenceController extends BasePreferenceController {
+public class FlexoMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "AlthoMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.altho.maintainer";
+    private static final String TAG = "FlexoMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.flexo.maintainer";
 
-    public AlthoMaintainerPreferenceController(Context context, String key) {
+    public FlexoMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 

@@ -53,13 +53,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
-    <!-- Altho Maintainer -->
+    <!-- Flexo Maintainer -->
     <Preference
-        android:key="Altho_maintainer"
-        android:title="@string/Altho_maintainer"
+        android:key="Flexo_maintainer"
+        android:title="@string/Flexo_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AlthoMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FlexoMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
