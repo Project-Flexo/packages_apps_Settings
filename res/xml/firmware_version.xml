@@ -37,13 +37,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Altho Version -->
+    <!-- Flexo Version -->
     <Preference
-        android:key="Altho_version"
-        android:title="@string/Altho_version"
+        android:key="Flexo_version"
+        android:title="@string/Flexo_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AlthoVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FlexoVersionPreferenceController"/>
 
     <!-- Device name -->
     <Preference

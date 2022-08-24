@@ -22,8 +22,8 @@
    <string name="altho_settings_title">WIngs</string>
    <string name="altho_settings_summary">add-on! Cust</string>
 
-   <!-- Altho Version Preference -->
-   <string name="Altho_version">"Altho version"</string>
+   <!-- Flexo Version Preference -->
+   <string name="Flexo_version">"Flexo version"</string>
 
    <!-- Altho Maintainer -->
    <string name="Altho_maintainer">Device Maintainer</string>
