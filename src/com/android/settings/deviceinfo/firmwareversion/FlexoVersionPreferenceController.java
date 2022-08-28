@@ -28,7 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 public class FlexoVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "FlexoVersionPreferenceController";
-    private static final String ROM_PROPERTY = "org.altho.version";
+    private static final String ROM_PROPERTY = "org.flexo.version";
 
     public FlexoVersionPreferenceController(Context context, String key) {
         super(context, key);
