@@ -59,6 +59,7 @@
         android:key="top_level_wallpaper"
         android:order="-190"
         android:title="@string/wallpaper_settings_title"
+        android:summary="@string/wallpaper_dashboard_summary"
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <Preference
