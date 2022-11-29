@@ -136,4 +136,8 @@
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
 
+    <!-- Wings maintainer in About phone -->
+    <string name="wings_maintainer">Maintainer</string>
+    <string name="wings_maintainer_name" translatable="false">Team Flexo</string>
+    <string name="wings_maintainer_group" translatable="false">https://t.me/projectflexosupport</string>
 </resources>
