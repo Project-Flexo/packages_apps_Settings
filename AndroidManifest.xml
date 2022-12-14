@@ -4534,7 +4534,7 @@
 
         <!-- Wings -->
         <activity android:name=".Settings$PextensionSettingsActivity"
-                  android:label="@string/Wings_title"
+                  android:label="@string/extensions_title"
                   android:icon="@drawable/ic_homepage_extensions"
                   android:exported="true"
                   android:parentActivityName="com.android.settings">
