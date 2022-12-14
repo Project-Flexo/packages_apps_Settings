@@ -136,7 +136,6 @@
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
 
-<<<<<<< HEAD
     <!-- Wings maintainer in About phone -->
     <string name="wings_maintainer">Maintainer</string>
     <string name="wings_maintainer_name" translatable="false">Team Flexo</string>
@@ -184,4 +183,6 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Device Name -->
+    <string name="about_device_name">Device | Model</string>
 </resources>
