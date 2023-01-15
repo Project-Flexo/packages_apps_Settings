@@ -10,7 +10,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <color name="homepage_card">@android:color/system_accent2_100</color>
+    <color name="homepage_icon">@android:color/system_accent1_600</color>
     <color name="homepage_extensions_background">#536dfe</color>
     <color name="user_crd_bg">@android:color/system_neutral1_0</color>
 </resources>
