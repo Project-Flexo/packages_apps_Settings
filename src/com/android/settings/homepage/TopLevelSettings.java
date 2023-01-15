@@ -211,6 +211,9 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 
             String key = preference.getKey();
             preference.setLayoutResource(R.layout.top_level_card);
+            if (key.equals("flexo_lottie_animation")) {
+                preference.setLayoutResource(R.layout.flexoos_card);
+            }
 	}
     }
 
