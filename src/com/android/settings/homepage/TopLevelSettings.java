@@ -200,21 +200,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 icon.setTint(tintColor);
             }
         });
-        onSetPrefCard();
-    }
-
-    private void onSetPrefCard() {
-        final PreferenceScreen screen = getPreferenceScreen();
-        final int count = screen.getPreferenceCount();
-        for (int i = 0; i < count; i++) {
-            final Preference preference = screen.getPreference(i);
-
-            String key = preference.getKey();
-            preference.setLayoutResource(R.layout.top_level_card);
-            if (key.equals("flexo_lottie_animation")) {
-                preference.setLayoutResource(R.layout.flexoos_card);
-            }
-	}
+        
     }
 
     @Override

@@ -60,6 +60,7 @@ android_library {
           ],
     resource_dirs: [
         "res",
+        "res-ui",
         "TouchGestures/res",
         "Wings/res",
     ],
